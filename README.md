@@ -10,17 +10,17 @@ docker run -p 9001:9001 python-project
 
 ## 2. Build and tag according to docker hub
 ```commandline
-docker tag python-rest-api rahulwagh17/python-flask-rest-api-project:python-rest-api
+docker tag python-rest-api nntijan/python:python-project
 ```
 
 ## 3. Docker push
 ```commandline
-docker push rahulwagh17/python-flask-rest-api-project:python-rest-api
+docker push nntijan/python:python-project
 ```
 
 ## 4. Docker pull
 ```commandline
-docker pull rahulwagh17/python-flask-rest-api-project:python-rest-api
+docker pull nntijan/python:python-project
 ```
 
 ## 5. Run the Docker image
